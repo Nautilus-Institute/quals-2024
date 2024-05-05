@@ -1,0 +1,15 @@
+#!/bin/bash
+cd $(dirname $0)
+set -ex
+
+docker build -t jocol:latest .
+
+mkdir -p flags
+echo 'flug{ExamplePlaceholderFlagn24:n10j9HgLP2jXk36TE-W4Y9ywn5n8qH-IWpJT9rMchILB5c8kHzTU7Pg1YoW7lcL8lMTFzCRFHaE7abJ_}' > flags/flag1.txt
+cp flags/flag1.txt flags/flag2.txt
+
+docker run \
+    --rm \
+    -v $(pwd)/flags/flag1.txt:/flag1.txt:ro \
+    -v $(pwd)/flags/flag2.txt:/flag2.txt:ro \
+    -i jocol:latest

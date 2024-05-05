@@ -1,0 +1,14 @@
+<nav>
+  <.link href="showforum.php">Back to Forum</.link>
+</nav>
+
+<h1>
+  <img src={"/images/posticons/#{@thread_tag}"} alt={@thread_tag} />
+  <%= @thread_title %>
+</h1>
+
+<table class="thread_content">
+  <.post_row :for={post <- @post_stream} post={post} />
+</table>
+
+<.reply_form thread_id={@thread_id} />

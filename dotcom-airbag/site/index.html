@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <title>.com</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <style>
+body {
+    background-color: #160594;
+    color: rgb(61, 255, 242);
+    font-family: "Times New Roman", Times, serif;
+    /*background: url('background.png')*/
+}
+p {
+    font-size: 14px;
+}
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to .com!</h1>
+
+    <h4>What Do We Do?</h4>
+    <p>
+    We model the markets to make sure your investments are safe and sound.
+    </p>
+    <h2>FAQ</h2>
+    <h3>Is this a bubble?</h3>
+    <img src="./bubbleanm.gif" alt="whats his name">
+    <p>Some "experts" are calling the markets unprecedented growth a "bubble". But they just are sorry they missed out!</p>
+    <p><bold style="font-weight: 800; color: rgb(102, 226, 19)";>Either way, do not worry!</bold> We have important safeguards in place which will catch any such market crash before it can hurt you or your family.</p>
+
+    <h3>How does it work?</h3>
+    <img src="./merlin.gif"><img src="./anicalc.gif">
+    <hr/>
+    <h1>New Investment Model Terminal</h1>
+    <img src="./graphani.gif" alt="your profits">
+    <p>Try our latest terminal endpoint to see how your investments could be doing if you had them!</p>
+    <h3>Type the following into your terminal:</h3>
+    <bold>For personal accounts:</bold>
+    <p style="
+        font-size: 12px;
+        color: rgb(182, 247, 91);
+        background-color: rgb(0, 0, 0);
+        padding: 5px;
+    ">
+        telnet <script>document.write(window.location.hostname)</script> 10001
+    </p>
+    <bold>For business accounts:</bold>
+    <p style="
+        font-size: 12px;
+        color: rgb(182, 247, 91);
+        background-color: rgb(0, 0, 0);
+        padding: 5px;
+    ">
+        telnet <script>document.write(window.location.hostname)</script> 20002
+    </p>
+    <hr/>
+    <img src="./graph_up.gif" alt="your profits"><br/>
+    <span style="line-height: 30px;">
+        Invest today!</span>
+    <p style="font-size: 2px; color: grey; padding-bottom: 10px; margin-top: 700px;">.com is not FDIC insured. Investments may lose value. Past performance is not indicative of future results. Not all market crashes are guaranteed to be caught. Please consult your financial advisor before making any investment decisions.</p>
+
+    <audio controls autoplay style="visibility: hidden;">
+        <source src="https://qa.2024.nautilus.institute/static-uploads/dotcom_background_e1b27bc58b.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        var audio = document.querySelector('audio');
+        audio.play().catch(function() {
+            audio.play();
+        });
+        document.body.addEventListener('click', function() {
+            audio.play().catch(function() {
+                audio.play();
+            });
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<.header>
+  Listing Tickets
+</.header>
+
+<.table
+  id="tickets"
+  rows={@streams.tickets}
+  row_click={fn {_id, ticket} -> JS.navigate(~p"/admin/tickets/#{ticket}") end}
+>
+  <:col :let={{_id, ticket}} label="Slug"><%= ticket.slug %></:col>
+  <:col :let={{_id, ticket}} label="Reset at"><%= ticket.reset_at %></:col>
+  <:col :let={{_id, ticket}} label="Seed"><%= ticket.seed %></:col>
+  <:col :let={{_id, ticket}} label="Db size"><%= ticket.db_size %></:col>
+  <:action :let={{_id, ticket}}>
+    <div class="sr-only">
+      <.link navigate={~p"/admin/tickets/#{ticket}"}>Show</.link>
+    </div>
+  </:action>
+  <:action :let={{id, ticket}}>
+    <.link
+      phx-click={JS.push("reset", value: %{id: ticket.id})}
+      data-confirm="Mess up this team real bad by resetting their work?"
+    >
+      Reset
+    </.link>
+  </:action>
+</.table>
+
+<.modal
+  :if={@live_action in [:new, :edit]}
+  id="ticket-modal"
+  show
+  on_cancel={JS.patch(~p"/admin/tickets")}
+>
+  <.live_component
+    module={GilroyWeb.TicketLive.FormComponent}
+    id={@ticket.id || :new}
+    title={@page_title}
+    action={@live_action}
+    ticket={@ticket}
+    patch={~p"/admin/tickets"}
+  />
+</.modal>

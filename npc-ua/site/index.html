@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>Nautilus Industries</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <style>
+body {
+    background-color: #000;
+    color: white;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background: url('background.png')
+}
+p {
+    font-size: 10px;
+}
+    </style>
+  </head>
+  <body>
+    <center>
+        <h1>Nautilus Industries - Technology Ltd.</h1>
+        <h5 style="color: rgb(177, 13, 13)">Factory-First-Industrial-Techno-Conglomerate</h5>
+        <img class="animate__animated animate__pulse  animate__infinite" src="./industry.gif" alt="Nautilus Industries - Technology Ltd.">
+        <p>Dragging the manufacturing industry into the 21st century</p>
+        <hr/>
+        <hr/>
+        <p>
+            We have computers.<br/>
+            You have factories.<br/>
+            Let us put our computers in your factories.<br/>
+        </p>
+        <p style="color: rgb(0, 231, 0)">
+            Together we will make a lot of money:<br/>
+
+
+        <img src="./money.gif" alt="Money Factories"><br/>
+
+        <hr/>
+        <hr/>
+
+        <h5>System Status</h5>
+        <p>
+            UA PORT <span style="color: rgb(156, 156, 255)">4840</span> Status<br/>
+            <img src="./status.gif" alt="Everything is okay">
+        </p>
+        <br/>
+        <p>
+            Cross Factory Network Speed<br/><br/>
+            <img src="./gauge.gif" alt="Fast">
+    </center>
+    <audio controls autoplay style="visibility: hidden;">
+        <source src="https://qa.2024.nautilus.institute/static-uploads/npc_background.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        var audio = document.querySelector('audio');
+        audio.play().catch(function() {
+            audio.play();
+        });
+        document.body.addEventListener('click', function() {
+            audio.play().catch(function() {
+                audio.play();
+            });
+        });
+    </script>
+  </body>
+</html>

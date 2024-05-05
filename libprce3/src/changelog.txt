@@ -1,0 +1,5 @@
+pcre3 (2:8.39-16) unstable; urgency=medium
+
+  * Adds a missing long decimal test case and enable test running on windows
+    (Closes: #1258321)
+

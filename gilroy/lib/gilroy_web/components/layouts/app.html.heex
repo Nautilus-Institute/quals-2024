@@ -1,0 +1,19 @@
+<header id="toplevel_header">
+  <h1>Gilroy</h1>
+  <div :if={@current_ticket} class="ticket_info">
+    Holding ticket <tt><%= @current_ticket.slug %></tt>.
+    <.link href={~p"/dashboard"}>Dashboard</.link>
+  </div>
+  <div :if={@current_poster || nil} class="poster_info">
+    Posting as <.link href={~p"/forum/showuser.php?userid=#{@current_poster.id}"}><tt><%= @current_poster.name %></tt></.link>.
+    <.link href={~p"/forum/logout.php"} method="delete">
+      Clicking here makes all your wildest dreams come true
+    </.link>
+  </div>
+</header>
+<main>
+  <div>
+    <.flash_group flash={@flash} />
+    <%= @inner_content %>
+  </div>
+</main>

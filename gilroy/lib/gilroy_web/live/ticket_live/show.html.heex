@@ -1,0 +1,16 @@
+<.header>
+  Ticket <%= @ticket.id %>
+  <:subtitle>This is a team ticket;</:subtitle>
+</.header>
+
+<.link href={~p"/admin/databass/#{@ticket.id}"}>download database</.link>
+
+<.list>
+  <:item title="Slug"><%= @ticket.slug %></:item>
+  <:item title="Serialized"><%= @ticket.serialized %></:item>
+  <:item title="Reset at"><%= @ticket.reset_at %></:item>
+  <:item title="Seed"><%= @ticket.seed %></:item>
+  <:item title="Db size"><%= @ticket.db_size %></:item>
+</.list>
+
+<.back navigate={~p"/admin/tickets"}>Back to tickets</.back>

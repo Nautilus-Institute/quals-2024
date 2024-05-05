@@ -1,0 +1,15 @@
+#!/bin/bash
+cd $(dirname $0)
+set -ex
+
+docker build -t g:latest .
+
+mkdir -p target
+
+docker run \
+    --rm --user root \
+    -v $(pwd)/target:/target \
+    -v $(pwd)/🗄️:/src \
+    -v $(pwd)/Makefile:/src/Makefile:ro \
+    -w /src \
+    -it g:latest make

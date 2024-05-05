@@ -1,0 +1,928 @@
+{
+    "tickers": [
+        "Ramon Pena",
+        "Conservas de Cambados",
+        "Espinaler",
+        "Yurrita",
+        "La Brujula",
+        "Jose Gourmet",
+        "Matiz",
+        "Porthos",
+        "Nuri",
+        "Angelo Parodi",
+        "King Oscar",
+        "Les Mouettes d'Arvor",
+        "Minerva",
+        "Bella",
+        "Ortiz",
+        "Nissui",
+        "Sardinha",
+        "Alshark",
+        "Pollastrini Di Anzio",
+        "Pinhais",
+        "Ati Manel",
+        "FANGST"
+    ],
+    "accounts": [
+        {
+            "username": "mcarlson",
+            "password": "deengod420_cowa_freakin_bunga_0988675_soafg",
+            "balance": 25000.0,
+            "num_trades": 92,
+            "orders": [
+                {
+                    "type": 0,
+                    "ticker": "Yurrita",
+                    "price": 12.25,
+                    "quantity": 2
+                },
+                {
+                    "type": 0,
+                    "ticker": "Jose Gourmet",
+                    "price": 9.0,
+                    "quantity": 12
+                },
+                {
+                    "type": 0,
+                    "ticker": "Porthos",
+                    "price": 9.0,
+                    "quantity": 1
+                },
+                {
+                    "type": 0,
+                    "ticker": "Ramon Pena",
+                    "price": 7,
+                    "quantity": 10
+                }
+            ],
+            "positions": [
+                {
+                    "ticker": "{flag}",
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "username": "rainbowdan",
+            "password": "deenworld32125436543623",
+            "balance": 10000.0,
+            "num_trades": 867,
+            "orders": [
+                {
+                    "type": 1,
+                    "ticker": "Minerva",
+                    "price": 15.0,
+                    "quantity": 10
+                },
+                {
+                    "type": 1,
+                    "ticker": "Porthos",
+                    "price": 15.0,
+                    "quantity": 2
+                },
+                {
+                    "type": 1,
+                    "ticker": "Bella",
+                    "price": 18.5,
+                    "quantity": 3
+                },
+                {
+                    "type": 1,
+                    "ticker": "FANGST",
+                    "price": 9.25,
+                    "quantity": 5
+                },
+                {
+                    "type": 1,
+                    "ticker": "Nuri",
+                    "price": 8.25,
+                    "quantity": 6
+                },
+                {
+                    "type": 1,
+                    "ticker": "Pollastrini Di Anzio",
+                    "price": 9.0,
+                    "quantity": 6
+                },
+                {
+                    "type": 1,
+                    "ticker": "Ati Manel",
+                    "price": 4.0,
+                    "quantity": 9
+                },
+                {
+                    "type": 1,
+                    "ticker": "Bella",
+                    "price": 18.25,
+                    "quantity": 11
+                },
+                {
+                    "type": 1,
+                    "ticker": "Jose Gourmet",
+                    "price": 5.75,
+                    "quantity": 12
+                },
+                {
+                    "type": 1,
+                    "ticker": "Espinaler",
+                    "price": 18.5,
+                    "quantity": 12
+                },
+                {
+                    "type": 1,
+                    "ticker": "Pollastrini Di Anzio",
+                    "price": 4.0,
+                    "quantity": 11
+                },
+                {
+                    "type": 1,
+                    "ticker": "La Brujula",
+                    "price": 17.0,
+                    "quantity": 7
+                },
+                {
+                    "type": 1,
+                    "ticker": "Conservas de Cambados",
+                    "price": 9.0,
+                    "quantity": 8
+                },
+                {
+                    "type": 1,
+                    "ticker": "Minerva",
+                    "price": 18.75,
+                    "quantity": 10
+                },
+                {
+                    "type": 1,
+                    "ticker": "Jose Gourmet",
+                    "price": 16.75,
+                    "quantity": 11
+                },
+                {
+                    "type": 1,
+                    "ticker": "Angelo Parodi",
+                    "price": 19.0,
+                    "quantity": 5
+                },
+                {
+                    "type": 1,
+                    "ticker": "Matiz",
+                    "price": 19.75,
+                    "quantity": 3
+                },
+                {
+                    "type": 1,
+                    "ticker": "King Oscar",
+                    "price": 7.25,
+                    "quantity": 7
+                },
+                {
+                    "type": 1,
+                    "ticker": "Espinaler",
+                    "price": 12.5,
+                    "quantity": 1
+                },
+                {
+                    "type": 1,
+                    "ticker": "Sardinha",
+                    "price": 16.25,
+                    "quantity": 3
+                },
+                {
+                    "type": 1,
+                    "ticker": "Bella",
+                    "price": 4.5,
+                    "quantity": 2
+                },
+                {
+                    "type": 1,
+                    "ticker": "King Oscar",
+                    "price": 15.5,
+                    "quantity": 5
+                },
+                {
+                    "type": 1,
+                    "ticker": "FANGST",
+                    "price": 9.0,
+                    "quantity": 5
+                },
+                {
+                    "type": 1,
+                    "ticker": "Les Mouettes d'Arvor",
+                    "price": 16.0,
+                    "quantity": 3
+                },
+                {
+                    "type": 1,
+                    "ticker": "Pollastrini Di Anzio",
+                    "price": 12.75,
+                    "quantity": 1
+                },
+                {
+                    "type": 1,
+                    "ticker": "Angelo Parodi",
+                    "price": 8.25,
+                    "quantity": 4
+                },
+                {
+                    "type": 1,
+                    "ticker": "Les Mouettes d'Arvor",
+                    "price": 15.75,
+                    "quantity": 12
+                },
+                {
+                    "type": 1,
+                    "ticker": "Ati Manel",
+                    "price": 6.5,
+                    "quantity": 4
+                },
+                {
+                    "type": 1,
+                    "ticker": "Conservas de Cambados",
+                    "price": 19.5,
+                    "quantity": 4
+                },
+                {
+                    "type": 1,
+                    "ticker": "Pollastrini Di Anzio",
+                    "price": 8.5,
+                    "quantity": 6
+                },
+                {
+                    "type": 1,
+                    "ticker": "Matiz",
+                    "price": 12.75,
+                    "quantity": 10
+                },
+                {
+                    "type": 1,
+                    "ticker": "Nissui",
+                    "price": 19.5,
+                    "quantity": 12
+                },
+                {
+                    "type": 1,
+                    "ticker": "Espinaler",
+                    "price": 5.5,
+                    "quantity": 2
+                },
+                {
+                    "type": 1,
+                    "ticker": "Espinaler",
+                    "price": 17.0,
+                    "quantity": 7
+                },
+                {
+                    "type": 1,
+                    "ticker": "Yurrita",
+                    "price": 8.75,
+                    "quantity": 9
+                },
+                {
+                    "type": 1,
+                    "ticker": "King Oscar",
+                    "price": 9.0,
+                    "quantity": 7
+                },
+                {
+                    "type": 1,
+                    "ticker": "Nuri",
+                    "price": 19.0,
+                    "quantity": 8
+                },
+                {
+                    "type": 1,
+                    "ticker": "King Oscar",
+                    "price": 16.5,
+                    "quantity": 3
+                },
+                {
+                    "type": 1,
+                    "ticker": "Ati Manel",
+                    "price": 6.0,
+                    "quantity": 7
+                },
+                {
+                    "type": 1,
+                    "ticker": "La Brujula",
+                    "price": 19.5,
+                    "quantity": 4
+                },
+                {
+                    "type": 1,
+                    "ticker": "Angelo Parodi",
+                    "price": 9.25,
+                    "quantity": 10
+                },
+                {
+                    "type": 1,
+                    "ticker": "Yurrita",
+                    "price": 16.25,
+                    "quantity": 9
+                },
+                {
+                    "type": 1,
+                    "ticker": "Nuri",
+                    "price": 19.0,
+                    "quantity": 10
+                },
+                {
+                    "type": 1,
+                    "ticker": "Matiz",
+                    "price": 17.5,
+                    "quantity": 11
+                },
+                {
+                    "type": 1,
+                    "ticker": "Ortiz",
+                    "price": 14.0,
+                    "quantity": 6
+                },
+                {
+                    "type": 1,
+                    "ticker": "Ati Manel",
+                    "price": 15.25,
+                    "quantity": 3
+                },
+                {
+                    "type": 1,
+                    "ticker": "Espinaler",
+                    "price": 15.75,
+                    "quantity": 6
+                },
+                {
+                    "type": 1,
+                    "ticker": "Les Mouettes d'Arvor",
+                    "price": 15.0,
+                    "quantity": 12
+                },
+                {
+                    "type": 1,
+                    "ticker": "FANGST",
+                    "price": 18.0,
+                    "quantity": 4
+                },
+                {
+                    "type": 1,
+                    "ticker": "La Brujula",
+                    "price": 16.25,
+                    "quantity": 9
+                },
+                {
+                    "type": 0,
+                    "ticker": "Jose Gourmet",
+                    "price": 10.0,
+                    "quantity": 10
+                },
+                {
+                    "type": 0,
+                    "ticker": "La Brujula",
+                    "price": 4.5,
+                    "quantity": 2
+                },
+                {
+                    "type": 0,
+                    "ticker": "FANGST",
+                    "price": 9.0,
+                    "quantity": 1
+                },
+                {
+                    "type": 0,
+                    "ticker": "King Oscar",
+                    "price": 9.5,
+                    "quantity": 8
+                },
+                {
+                    "type": 0,
+                    "ticker": "Pinhais",
+                    "price": 6.0,
+                    "quantity": 1
+                },
+                {
+                    "type": 0,
+                    "ticker": "FANGST",
+                    "price": 5.5,
+                    "quantity": 3
+                },
+                {
+                    "type": 0,
+                    "ticker": "King Oscar",
+                    "price": 17.75,
+                    "quantity": 3
+                },
+                {
+                    "type": 0,
+                    "ticker": "Nissui",
+                    "price": 5.0,
+                    "quantity": 4
+                },
+                {
+                    "type": 0,
+                    "ticker": "Minerva",
+                    "price": 19.75,
+                    "quantity": 9
+                },
+                {
+                    "type": 0,
+                    "ticker": "La Brujula",
+                    "price": 5.0,
+                    "quantity": 10
+                },
+                {
+                    "type": 0,
+                    "ticker": "Yurrita",
+                    "price": 8.0,
+                    "quantity": 3
+                }
+            ],
+            "positions": [
+                {
+                    "ticker": "Ramon Pena",
+                    "quantity": 25
+                },
+                {
+                    "ticker": "Conservas de Cambados",
+                    "quantity": 66
+                },
+                {
+                    "ticker": "Espinaler",
+                    "quantity": 64
+                },
+                {
+                    "ticker": "Yurrita",
+                    "quantity": 48
+                },
+                {
+                    "ticker": "La Brujula",
+                    "quantity": 20
+                },
+                {
+                    "ticker": "Jose Gourmet",
+                    "quantity": 65
+                },
+                {
+                    "ticker": "Matiz",
+                    "quantity": 55
+                },
+                {
+                    "ticker": "Porthos",
+                    "quantity": 36
+                },
+                {
+                    "ticker": "Nuri",
+                    "quantity": 21
+                },
+                {
+                    "ticker": "Angelo Parodi",
+                    "quantity": 39
+                },
+                {
+                    "ticker": "King Oscar",
+                    "quantity": 58
+                },
+                {
+                    "ticker": "Les Mouettes d'Arvor",
+                    "quantity": 67
+                },
+                {
+                    "ticker": "Minerva",
+                    "quantity": 21
+                },
+                {
+                    "ticker": "Bella",
+                    "quantity": 33
+                },
+                {
+                    "ticker": "Ortiz",
+                    "quantity": 50
+                },
+                {
+                    "ticker": "Nissui",
+                    "quantity": 36
+                },
+                {
+                    "ticker": "Sardinha",
+                    "quantity": 71
+                },
+                {
+                    "ticker": "Alshark",
+                    "quantity": 32
+                },
+                {
+                    "ticker": "Pollastrini Di Anzio",
+                    "quantity": 25
+                },
+                {
+                    "ticker": "Pinhais",
+                    "quantity": 44
+                },
+                {
+                    "ticker": "Ati Manel",
+                    "quantity": 52
+                },
+                {
+                    "ticker": "FANGST",
+                    "quantity": 74
+                }
+            ]
+        },
+        {
+            "username": "caputos",
+            "password": "mormons_love_deens675567546",
+            "balance": 10000.0,
+            "num_trades": 302,
+            "orders": [
+                {
+                    "type": 1,
+                    "ticker": "Alshark",
+                    "price": 8.25,
+                    "quantity": 1
+                },
+                {
+                    "type": 1,
+                    "ticker": "Ati Manel",
+                    "price": 13.75,
+                    "quantity": 1
+                },
+                {
+                    "type": 1,
+                    "ticker": "Espinaler",
+                    "price": 15.75,
+                    "quantity": 4
+                },
+                {
+                    "type": 1,
+                    "ticker": "Nissui",
+                    "price": 15.5,
+                    "quantity": 6
+                },
+                {
+                    "type": 1,
+                    "ticker": "Ortiz",
+                    "price": 10.75,
+                    "quantity": 5
+                },
+                {
+                    "type": 1,
+                    "ticker": "FANGST",
+                    "price": 6.25,
+                    "quantity": 3
+                },
+                {
+                    "type": 1,
+                    "ticker": "King Oscar",
+                    "price": 4.0,
+                    "quantity": 11
+                },
+                {
+                    "type": 1,
+                    "ticker": "Nissui",
+                    "price": 4.0,
+                    "quantity": 8
+                },
+                {
+                    "type": 1,
+                    "ticker": "Yurrita",
+                    "price": 9.0,
+                    "quantity": 9
+                },
+                {
+                    "type": 1,
+                    "ticker": "Ati Manel",
+                    "price": 8.75,
+                    "quantity": 10
+                },
+                {
+                    "type": 1,
+                    "ticker": "Ortiz",
+                    "price": 17.0,
+                    "quantity": 3
+                },
+                {
+                    "type": 1,
+                    "ticker": "Yurrita",
+                    "price": 19.75,
+                    "quantity": 2
+                },
+                {
+                    "type": 1,
+                    "ticker": "Angelo Parodi",
+                    "price": 18.0,
+                    "quantity": 5
+                },
+                {
+                    "type": 1,
+                    "ticker": "Conservas de Cambados",
+                    "price": 8.5,
+                    "quantity": 4
+                },
+                {
+                    "type": 1,
+                    "ticker": "Nissui",
+                    "price": 9.25,
+                    "quantity": 7
+                },
+                {
+                    "type": 1,
+                    "ticker": "Angelo Parodi",
+                    "price": 4.25,
+                    "quantity": 10
+                },
+                {
+                    "type": 1,
+                    "ticker": "Les Mouettes d'Arvor",
+                    "price": 19.75,
+                    "quantity": 4
+                },
+                {
+                    "type": 1,
+                    "ticker": "Minerva",
+                    "price": 16.25,
+                    "quantity": 6
+                },
+                {
+                    "type": 1,
+                    "ticker": "Conservas de Cambados",
+                    "price": 12.75,
+                    "quantity": 12
+                },
+                {
+                    "type": 1,
+                    "ticker": "Les Mouettes d'Arvor",
+                    "price": 10.5,
+                    "quantity": 7
+                },
+                {
+                    "type": 1,
+                    "ticker": "Sardinha",
+                    "price": 12.25,
+                    "quantity": 11
+                },
+                {
+                    "type": 1,
+                    "ticker": "Nissui",
+                    "price": 11.75,
+                    "quantity": 12
+                },
+                {
+                    "type": 1,
+                    "ticker": "Porthos",
+                    "price": 18.5,
+                    "quantity": 1
+                },
+                {
+                    "type": 1,
+                    "ticker": "Ramon Pena",
+                    "price": 20.0,
+                    "quantity": 11
+                },
+                {
+                    "type": 1,
+                    "ticker": "Minerva",
+                    "price": 19.25,
+                    "quantity": 2
+                },
+                {
+                    "type": 1,
+                    "ticker": "Alshark",
+                    "price": 6.75,
+                    "quantity": 9
+                },
+                {
+                    "type": 1,
+                    "ticker": "Les Mouettes d'Arvor",
+                    "price": 7.0,
+                    "quantity": 10
+                },
+                {
+                    "type": 1,
+                    "ticker": "Conservas de Cambados",
+                    "price": 13.0,
+                    "quantity": 10
+                },
+                {
+                    "type": 1,
+                    "ticker": "Yurrita",
+                    "price": 12.5,
+                    "quantity": 8
+                },
+                {
+                    "type": 1,
+                    "ticker": "Ortiz",
+                    "price": 9.25,
+                    "quantity": 4
+                },
+                {
+                    "type": 1,
+                    "ticker": "Jose Gourmet",
+                    "price": 14.25,
+                    "quantity": 12
+                },
+                {
+                    "type": 1,
+                    "ticker": "Yurrita",
+                    "price": 15.0,
+                    "quantity": 12
+                },
+                {
+                    "type": 1,
+                    "ticker": "FANGST",
+                    "price": 14.0,
+                    "quantity": 7
+                },
+                {
+                    "type": 1,
+                    "ticker": "Porthos",
+                    "price": 16.75,
+                    "quantity": 10
+                },
+                {
+                    "type": 1,
+                    "ticker": "Nissui",
+                    "price": 19.25,
+                    "quantity": 11
+                },
+                {
+                    "type": 1,
+                    "ticker": "Angelo Parodi",
+                    "price": 5.75,
+                    "quantity": 5
+                },
+                {
+                    "type": 1,
+                    "ticker": "King Oscar",
+                    "price": 14.75,
+                    "quantity": 3
+                },
+                {
+                    "type": 1,
+                    "ticker": "Yurrita",
+                    "price": 13.0,
+                    "quantity": 2
+                },
+                {
+                    "type": 1,
+                    "ticker": "Conservas de Cambados",
+                    "price": 6.0,
+                    "quantity": 8
+                },
+                {
+                    "type": 1,
+                    "ticker": "Matiz",
+                    "price": 15.25,
+                    "quantity": 2
+                },
+                {
+                    "type": 1,
+                    "ticker": "Matiz",
+                    "price": 10.5,
+                    "quantity": 4
+                },
+                {
+                    "type": 1,
+                    "ticker": "Yurrita",
+                    "price": 12.75,
+                    "quantity": 2
+                },
+                {
+                    "type": 1,
+                    "ticker": "Nuri",
+                    "price": 12.25,
+                    "quantity": 11
+                },
+                {
+                    "type": 1,
+                    "ticker": "Sardinha",
+                    "price": 11.5,
+                    "quantity": 11
+                },
+                {
+                    "type": 1,
+                    "ticker": "Bella",
+                    "price": 8.0,
+                    "quantity": 2
+                },
+                {
+                    "type": 1,
+                    "ticker": "Ramon Pena",
+                    "price": 13.25,
+                    "quantity": 7
+                },
+                {
+                    "type": 1,
+                    "ticker": "Nissui",
+                    "price": 15.0,
+                    "quantity": 5
+                },
+                {
+                    "type": 1,
+                    "ticker": "Ortiz",
+                    "price": 12.25,
+                    "quantity": 11
+                },
+                {
+                    "type": 1,
+                    "ticker": "Matiz",
+                    "price": 8.25,
+                    "quantity": 5
+                },
+                {
+                    "type": 1,
+                    "ticker": "Sardinha",
+                    "price": 5.75,
+                    "quantity": 11
+                }
+            ],
+            "positions": [
+                {
+                    "ticker": "Ramon Pena",
+                    "quantity": 45
+                },
+                {
+                    "ticker": "Conservas de Cambados",
+                    "quantity": 75
+                },
+                {
+                    "ticker": "Espinaler",
+                    "quantity": 51
+                },
+                {
+                    "ticker": "Yurrita",
+                    "quantity": 45
+                },
+                {
+                    "ticker": "La Brujula",
+                    "quantity": 36
+                },
+                {
+                    "ticker": "Jose Gourmet",
+                    "quantity": 54
+                },
+                {
+                    "ticker": "Matiz",
+                    "quantity": 26
+                },
+                {
+                    "ticker": "Porthos",
+                    "quantity": 65
+                },
+                {
+                    "ticker": "Nuri",
+                    "quantity": 21
+                },
+                {
+                    "ticker": "Angelo Parodi",
+                    "quantity": 25
+                },
+                {
+                    "ticker": "King Oscar",
+                    "quantity": 38
+                },
+                {
+                    "ticker": "Les Mouettes d'Arvor",
+                    "quantity": 55
+                },
+                {
+                    "ticker": "Minerva",
+                    "quantity": 68
+                },
+                {
+                    "ticker": "Bella",
+                    "quantity": 40
+                },
+                {
+                    "ticker": "Ortiz",
+                    "quantity": 65
+                },
+                {
+                    "ticker": "Nissui",
+                    "quantity": 74
+                },
+                {
+                    "ticker": "Sardinha",
+                    "quantity": 79
+                },
+                {
+                    "ticker": "Alshark",
+                    "quantity": 77
+                },
+                {
+                    "ticker": "Pollastrini Di Anzio",
+                    "quantity": 29
+                },
+                {
+                    "ticker": "Pinhais",
+                    "quantity": 50
+                },
+                {
+                    "ticker": "Ati Manel",
+                    "quantity": 44
+                },
+                {
+                    "ticker": "FANGST",
+                    "quantity": 61
+                }
+            ]
+        }
+    ]
+}

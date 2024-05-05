@@ -1,0 +1,39 @@
+<p>
+  generated some bytes of forum
+  in <%= @time_took %> ms
+</p>
+
+<h1>threads</h1>
+<table>
+  <.thread_header />
+  <tbody>
+    <.thread_row :for={thread <- @forum.threads} thread={thread} />
+  </tbody>
+</table>
+
+<h1>posters</h1>
+<table>
+  <thead>
+    <tr>
+      <th>name</th>
+      <th>group</th>
+    </tr>
+  </thead>
+  <tbody>
+    <%= for p <- @forum.posters do %>
+      <tr>
+        <td><%= p.name %></td>
+        <td><%= p.group %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<h1>rng</h1>
+<dl>
+  <dd>initial</dd>
+  <dt><%= inspect(@init_state) %></dt>
+
+  <dd>final</dd>
+  <dt><%= inspect(@state) %></dt>
+</dl>

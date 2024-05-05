@@ -1,0 +1,50 @@
+<nav>
+  <.link href="showforum.php">Back to Forum</.link>
+</nav>
+
+<h1>new thread</h1>
+
+<div class="new_thread">
+  <div class="banme_warning">
+    <h2>DON'T USE THESE TAGS:</h2>
+    <ul>
+      <li :for={banme <- @banmes}>
+        <img src={"/images/posticons/#{banme}"} alt={banme} />
+      </li>
+    </ul>
+    <p>
+      <.link href={~p"/forum/rules.php"}>Read the goddamn forum rules before posting!!!</.link>
+      If you break a forum rule, you WILL be banned.
+      Ignorance is NO excuse.
+    </p>
+    <ul>
+      <li>You may post new threads</li>
+      <li>You may post replies</li>
+      <li>You may post attachments</li>
+      <li>You may edit your posts</li>
+      <li>HTML code is off</li>
+      <li>BBcode is off</li>
+      <li>Smilies are off</li>
+      <li>[IMG] code is off</li>
+    </ul>
+  </div>
+
+  <.form for={@form} action={~p"/forum/newthread.php"} method="post">
+    <dl>
+      <dt>Logged-in Poster</dt>
+      <dd><%= @current_poster.name %></dd>
+      <dt>Subject</dt>
+      <dd><.input type="text" field={@form["title"]} placeholder="title" required /></dd>
+      <dt>Thread Tag</dt>
+      <dd><.thread_tag_picker field={@form["tag"]} tags={@tags} /></dd>
+      <dt>Body</dt>
+      <dd><.input type="textarea" field={@form["content"]} placeholder="content" required /></dd>
+      <dt>Platinum Features</dt>
+      <dd><em>Must be subscribed to Gilroy Platinum</em></dd>
+      <dt></dt>
+      <dd>
+        <.button>Create Thread</.button>
+      </dd>
+    </dl>
+  </.form>
+</div>

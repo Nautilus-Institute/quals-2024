@@ -1,0 +1,15 @@
+<nav>
+  <.link href="showforum.php">Back to Forum</.link>
+</nav>
+
+<h1>
+  User <em><%= @poster.name %></em>
+</h1>
+<dl>
+  <dt>id</dt>
+  <dd><%= @poster.id %></dd>
+  <dt>name</dt>
+  <dd><%= @poster.name %></dd>
+  <dt>group</dt>
+  <dd><%= Gilroy.Miniforum.Poster.get_group_name(@poster.group) %></dd>
+</dl>

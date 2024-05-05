@@ -1,0 +1,24 @@
+<.login_or_signup_form :if={!@current_poster} />
+
+<nav>
+  <.link :if={@current_poster} href="newthread.php">New Thread</.link>
+  <.link :if={@current_poster && @current_poster.group == 2} href="admin.php" class="admin_link">
+    Admin
+  </.link>
+</nav>
+
+<table class="threadlist">
+  <.thread_header />
+  <tbody>
+    <.thread_row :for={thread <- @thread_stream} thread={thread} />
+  </tbody>
+</table>
+
+<h2>Administered by:</h2>
+<ul>
+  <li :for={admin <- @admin_stream}>
+    <.link href={"showuser.php?userid=#{hd(admin)}"}>
+      <%= Enum.at(admin, 1) %>
+    </.link>
+  </li>
+</ul>

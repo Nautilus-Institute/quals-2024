@@ -1,0 +1,7 @@
+<p><.link href={~p"/rules"}>gilroy rules</.link></p>
+
+<.form for={@ticket_form} action={~p"/tickets"}>
+  <.input label="ticket please:" field={@ticket_form[:encrypted_ticket]} />
+
+  <button type="submit">enter</button>
+</.form>

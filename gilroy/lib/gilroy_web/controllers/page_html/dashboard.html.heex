@@ -1,0 +1,27 @@
+<p>
+  You're holding ticket <span class="ticket"><%= @ticket.slug %></span>.
+</p>
+
+<dl>
+  <dt>Current database size</dt>
+  <dd><%= @ticket.db_size || 0 %></dd>
+  <dt>Size state</dt>
+  <dd><%= Gilroy.Tickets.Ticket.database_size_state(@ticket.db_size) %></dd>
+  <dt>Warning size</dt>
+  <dd><%= Gilroy.Tickets.Ticket.warning_size() %></dd>
+  <dt>Max size</dt>
+  <dd><%= Gilroy.Tickets.Ticket.maximium_size() %></dd>
+</dl>
+
+<ul>
+  <li><.link href={~p"/rules"}>rules</.link></li>
+  <li>
+    <.link href={~p"/forum/showforum.php"}>Join the forum</.link>
+  </li>
+  <li>
+    <.link href={~p"/reset"} method="delete">clean out database</.link>
+  </li>
+  <li>
+    <.link href={~p"/logout"} method="delete">log out</.link>
+  </li>
+</ul>
