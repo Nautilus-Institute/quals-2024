@@ -1,0 +1,428 @@
+/*   background: linear-gradient(0deg,
+ *                            #373e4f 0%,
+ *                            #22242f 64%,
+ *                            #62575a 74%,
+ *                            #ffa73c 75%,
+ *                            #feea8e 77%,
+ *                            #ffe1b2 82%,
+ *                            #b9c4d1 100%)
+ *                              */
+body {
+  background-color: #321052;
+  color: #ffe4b1;
+}
+
+a:link, a:visited {
+  color: #50e7f7;
+}
+
+main h1, main h2, main h3, main h4, main h5, main h6 {
+  color: #ffac11;
+}
+
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  src: url("Jost-VariableFont_wght.woff2") format("woff2"), local("Jost");
+}
+@font-face {
+  font-family: "Jost";
+  font-style: italic;
+  src: url("Jost-Italic-VariableFont_wght.woff2") format("woff2"), local("Jost Italic");
+}
+@font-face {
+  font-display: swap;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 100;
+  src: url("ibm-plex-sans-v19-100.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "IBM Plex Sans";
+  font-style: italic;
+  font-weight: 100;
+  src: url("ibm-plex-sans-v19-100italic.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 200;
+  src: url("ibm-plex-sans-v19-200.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "IBM Plex Sans";
+  font-style: italic;
+  font-weight: 200;
+  src: url("ibm-plex-sans-v19-200italic.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("ibm-plex-sans-v19-300.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "IBM Plex Sans";
+  font-style: italic;
+  font-weight: 300;
+  src: url("ibm-plex-sans-v19-300italic.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("ibm-plex-sans-v19-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "IBM Plex Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("ibm-plex-sans-v19-italic.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("ibm-plex-sans-v19-500.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "IBM Plex Sans";
+  font-style: italic;
+  font-weight: 500;
+  src: url("ibm-plex-sans-v19-500italic.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("ibm-plex-sans-v19-600.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "IBM Plex Sans";
+  font-style: italic;
+  font-weight: 600;
+  src: url("ibm-plex-sans-v19-600italic.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("ibm-plex-sans-v19-700.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "IBM Plex Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("ibm-plex-sans-v19-700italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  src: url("RobotoMono-VariableFont_wght.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: italic;
+  src: url("RobotoMono-Italic-VariableFont_wght.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("material-icons.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Material Icons Outlined";
+  font-style: normal;
+  font-weight: 400;
+  src: url("outline-material-icons.woff2") format("woff2");
+}
+@font-face {
+  font-family: "DePixel";
+  font-style: normal;
+  font-weight: bold;
+  src: url("DePixelHalbfett.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Ark Pixel 12px Proportional";
+  font-style: normal;
+  font-weight: normal;
+  src: url("ark-pixel-12px-proportional-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Ark Pixel 12px Monospaced";
+  font-style: normal;
+  font-weight: normal;
+  src: url("ark-pixel-12px-monospaced-latin.woff2") format("woff2");
+}
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.1rem;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: "liga";
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.material-icons-outlined {
+  font-family: "Material Icons Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font-size: min(22px, max(16px, 2.4vw));
+}
+
+body, input, button {
+  font-family: "Ark Pixel 12px Proportional", "Helvetica", "Arial Unicode MS", "Arial", sans-serif;
+}
+
+.explanation {
+  margin-top: 0.2em;
+  font-size: 0.8em;
+}
+
+.small {
+  font-size: 0.6em;
+}
+
+.time_t, .epoch {
+  font-family: "Ark Pixel 12px Monospaced", "Roboto Mono", "Ubuntu Mono", "Menlo", "Consolas", "Courier", monospace;
+}
+
+code, fixed, tt {
+  font-family: "Ark Pixel 12px Monospaced", "Roboto Mono", "Ubuntu Mono", "Menlo", "Consolas", "Courier", monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "DePixel", "Chicago", "Helvetica", "Arial Unicode MS", "Arial", sans-serif;
+}
+
+h1, h3, h5 {
+  font-weight: 800;
+}
+
+h2, h4, h6 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h3, h4 {
+  font-size: 1.15rem;
+}
+
+h5, h6 {
+  font-size: 1.1rem;
+}
+
+.big-btn {
+  padding: 0;
+  margin: 1rem;
+  margin-left: 0;
+  display: inline-block;
+}
+.big-btn a:link {
+  display: inline-block;
+  border: 1px solid #db1675;
+  padding: 1rem;
+  background-color: #560a32;
+  margin: 0;
+  padding: 1rem;
+  text-decoration: none;
+}
+.big-btn a:link .fake-link {
+  text-decoration: underline;
+}
+.big-btn a:hover {
+  border-color: #ffac11;
+  background-color: #0A7985;
+}
+.big-btn a:hover h1 {
+  color: #ffac11;
+}
+.big-btn a:hover .fake-link {
+  color: #ffac11;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  margin: 0;
+  grid-template-areas: "header" "nav" "main" "footer";
+}
+
+#not_prod {
+  background: #db1675;
+  color: #ffac11;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  font-weight: 900;
+  padding: 1rem;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  border-width: 1px 0 0 0;
+  grid-area: main;
+  margin: 0;
+  padding: 1rem;
+}
+main #content section {
+  border: 1px solid #ffac11;
+  background-color: #560a32;
+  margin: 2rem 1rem 1rem;
+  padding: 0 1rem 1rem;
+}
+main #content section:first-child {
+  margin-top: 0;
+}
+main #content section h1:first-child {
+  font-size: 1.25rem;
+  margin: 0 1rem;
+  padding: 0.25rem;
+  background-color: #892be1;
+  display: inline-block;
+  position: relative;
+  top: -1rem;
+}
+main #content section .container {
+  margin-top: -1rem;
+}
+
+footer {
+  grid-area: footer;
+}
+
+header {
+  background-color: #892be1;
+}
+header h1 {
+  text-align: left;
+  margin: 1rem;
+}
+header #nauty {
+  font-size: 1rem;
+  font-family: "Ark Pixel 12px Proportional", "Helvetica", "Arial Unicode MS", "Arial", sans-serif;
+  font-weight: normal;
+  margin-bottom: 0;
+  max-width: 10em;
+}
+header #main {
+  font-size: 2rem;
+  align-self: end;
+  color: #ffac11;
+  text-shadow: -8px -8px 0 #db1675;
+  transform: skew(0, -13deg) translateY(-2rem);
+  display: inline-block;
+}
+
+table {
+  border-collapse: collapse;
+}
+table th, table td {
+  padding: 0.5rem;
+}
+table tr {
+  border-bottom: 1px solid #321052;
+}
+table tr:last-child {
+  border-bottom: none;
+}
+table td.null {
+  font-style: oblique;
+  text-align: center;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+body #content {
+  width: 980px;
+  margin: 12px auto;
+  padding: 12px;
+}
+body #content nav.big {
+  padding: 12px;
+}
+body #content nav.big ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+body #content nav.big ul li a {
+  font-size: 2em;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 700;
+}
+body #content nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+body #content nav ul li {
+  display: inline-block;
+}
+body #content nav ul li a {
+  display: inline-block;
+  padding: 0.5em;
+}
+
+/*# sourceMappingURL=statdump.css.map */
