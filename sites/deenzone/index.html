@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Chelsea+Market&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/launch.css">
+    <title>🐟</title>
+  </head>
+  <div class="bar">
+    <div class="left">
+      <div class="input-group">
+        <input type="text" id="ticket" name="ticket" placeholder="ticket{">
+        <button id="launch">Launch</button>
+      </div>
+    </div>
+    <div class="right">
+      <span id="timer">⏳</span>
+    </div>
+  </div>
+  <div id="error"></div>
+  </div>
+  <div id="instance">
+    <div class="deen-wrapper">
+      <div>
+        <img src="/deen-wait.png" class="deen-can">
+        <div class="deen-sign">
+          <code id="command"></code>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="framewrap"></div>
+  <script src="/launch.js"></script>
+  <audio controls autoplay style="visibility: hidden;">
+      <source src="https://qa.2024.nautilus.institute/static-uploads/sardines_e4049c7b1f.mp3" type="audio/mpeg">
+  </audio>
+  <script>
+      var audio = document.querySelector('audio');
+      document.body.addEventListener('click', function() {
+        audio.play();
+      });
+  </script>
+</html>

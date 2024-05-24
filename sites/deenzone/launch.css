@@ -1,0 +1,195 @@
+body {
+  background-color: #9e9b80;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+iframe {
+  width: 100%;
+  height: calc( 100% - 40px );
+  border: none;
+}
+.bar {
+  height: 35px;
+  padding: .4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  max-width: 1000px;
+  margin: auto;
+}
+#ticket {
+  background-color: rgb(154 155 171);
+  background-clip: initial;
+  border: 1px solid rgba(32, 33, 35, 0.7);
+  border-right: none;
+  color: #444;
+  resize: none;
+  height: 35px;
+  line-height: 36px;
+  text-indent: 8px;
+  /*min-width: 520px;*/
+  border-radius: 0.375rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  width: calc( 100% - 75px );
+}
+#timer {
+  color: white;
+}
+#launch {
+  background-color: rgb(154 155 171);
+  border: 1px solid rgba(32, 33, 35, 0.57);
+  border-left: none;
+  border-radius: 0.375rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 75px;
+  height: 2.909em;
+  line-height: 36px;
+  color: #fff;
+  cursor: pointer;
+}
+#framewrap {
+  text-align: center;
+  font-family: "Seaweed Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#launch:hover {
+  background-color: rgb(32, 34, 37);
+}
+#launch.disabled {
+  cursor: not-allowed;
+  background-color: rgb(62 62 65);
+  color: #6a6a6a;
+}
+.input-group {
+  display:flex;
+  position: relative;
+  align-items: stretch;
+  width: calc( 100% - 20px );
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 0px 15px 0px;
+}
+.left {
+  width: 100%;
+}
+.right {
+  width: 175px;
+  text-align: right;
+  padding-right: 5px;
+}
+#error {
+  text-align: center;
+  width: 100%;
+  color: #9d0505;
+  font-family: "Averia Libre", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+.booting-instance {
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 4rem;
+}
+.booting-instance .loader {
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+.deen-can {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.deen-wrapper > div {
+  position: relative;
+  height: 400px;
+  width: 500px;
+}
+.deen-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.deen-sign {
+  background: #c2c4ad;
+  position: absolute;
+  top: 146px;
+  left: 150px;
+  width: 96px;
+  z-index: -1;
+  transform: skew(353deg, 5deg);
+  height: 55px;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Chelsea+Market&display=swap');
+
+#instance {
+  color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+#command {
+  color: #822f06;
+  font-family: "Averia Libre", system-ui;
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+.loader {
+    position: relative;
+    font-size: 16px;
+    width:  5.5em;
+    height: 5.5em;
+    }
+    .loader:before{
+      content: '';
+      position: absolute;
+      transform: translate(-50%, -50%) rotate(45deg);
+      height: 100%;
+      width: 4px;
+      background: #fff;
+      left: 50%;
+      top: 50%;
+    }
+    .loader:after{
+      content: '';
+      position: absolute;
+      left: 0.2em;
+      bottom: 0.18em;
+      width: 1em;
+      height: 1em;
+      background-color: #de3500;
+      border-radius: 15%;
+      animation: rollingRock 2.5s cubic-bezier(.79, 0, .47, .97) infinite;
+    }
+  @keyframes rollingRock {
+    0% {transform: translate(0, -1em) rotate(-45deg)}
+    5% {transform: translate(0, -1em) rotate(-50deg)}
+    20% {transform: translate(1em, -2em) rotate(47deg)}
+    25% {transform: translate(1em, -2em) rotate(45deg)}
+    30% {transform: translate(1em, -2em) rotate(40deg)}
+    45% {transform: translate(2em, -3em) rotate(137deg)}
+    50% {transform: translate(2em, -3em) rotate(135deg)}
+    55% {transform: translate(2em, -3em) rotate(130deg)}
+    70% {transform: translate(3em, -4em) rotate(217deg)}
+    75% {transform: translate(3em, -4em) rotate(220deg)}
+    100% {transform: translate(0, -1em) rotate(-225deg)}
+  }
